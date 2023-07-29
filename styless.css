@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 35px 55px rgba(0,0,0,1);
+    margin-bottom: 20px;
+}
+.container .lside{
+    position: relative;
+    background-color: rgb(16, 16, 97);
+    padding: 40px;
+    min-height:1000px;
+}
+.profile{
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.profile .imgbox{
+    position: relative;
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container .rside{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+    height: fit-content;
+}
